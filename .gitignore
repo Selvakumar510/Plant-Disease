@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment files
+.env
+
+# Uploads & datasets (VERY IMPORTANT)
+backend/uploads/
+backend/data/
+backend/data_split/
+
+# ML models (too large for GitHub)
+*.h5
+*.pth
+*.pt
+
+# Build folders
+dist/
+build/
+
+# OS / Editor
+.vscode/
+.DS_Store
